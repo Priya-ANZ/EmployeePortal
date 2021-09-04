@@ -2,11 +2,7 @@ import React, { Component } from 'react';
 import {Link} from "react-router-dom";
 
 class Employee extends Component {
-    constructor(props){
-        super(props);
-    }
-    state = {  }
-    
+      
     render() { 
         const {id,name, age, designation, email, phone , url} = this.props.location.state
         return (  

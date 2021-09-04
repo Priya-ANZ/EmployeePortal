@@ -15,7 +15,7 @@ function App() {
             <Route path="/employee" component={Employee}></Route>
             <Route path = "/dashboard" component ={Home}></Route>
             <Redirect from="/" exact to="/dashboard"></Redirect>
-            <Redirect to="/not-found"></Redirect>
+            <Redirect to="/dashboard"></Redirect>
           </Switch>
       
    </main>
