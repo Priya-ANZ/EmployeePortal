@@ -12,8 +12,7 @@ class Home extends Component {
      }
   
      componentDidMount() {
-       
-         this.setState({departments: data.departments})  
+       this.setState({departments: data.departments})  
      }
 
      handleDepartmentChange = (department) =>{

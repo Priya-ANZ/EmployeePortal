@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 class Employee extends Component {
       
     render() { 
-        const {id,name, age, designation, email, phone , url} = this.props.location.state
+        const {id,name, designation, email, phone , url} = this.props.location.state
         return (  
             <div className="container my-5">
            

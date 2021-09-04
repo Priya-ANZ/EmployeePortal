@@ -2,7 +2,6 @@ import React from "react";
 const SearchBox = ({ value, onChange }) => {
   return (
     <input
-        className ="sticky-top"
       type="text"
       placeholder="Search By Name..."
       value={value}

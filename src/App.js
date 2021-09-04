@@ -6,20 +6,17 @@ import Employee from './components/employee';
 function App() {
  
   return (
-   
-    <>
-    <Header></Header>
-   <main >
-
-   <Switch>
-            <Route path="/employee" component={Employee}></Route>
-            <Route path = "/dashboard" component ={Home}></Route>
-            <Redirect from="/" exact to="/dashboard"></Redirect>
-            <Redirect to="/dashboard"></Redirect>
-          </Switch>
-      
-   </main>
-   </>
+        <>
+          <Header></Header>
+          <main>
+                <Switch>
+                  <Route path="/employee" component={Employee}></Route>
+                  <Route path = "/dashboard" component ={Home}></Route>
+                  <Redirect from="/" exact to="/dashboard"></Redirect>
+                  <Redirect to="/dashboard"></Redirect>
+                </Switch>
+          </main>
+        </>
   );
 }
 
