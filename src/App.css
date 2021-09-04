@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.font-text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.5 em;
+  font-style: oblique;
+  color: black;
+}
+.font-text-bold {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1 em;
+  font-style: oblique;
+  color: black;
+  font-weight: bolder;
+}
+
+.header-text {
+  color: white;
+  font-weight: bold;
+  font-style: oblique;
+  font-size: 2.5rem;
+  text-align: right;
+  position: sticky;
+}
+.main-content {
+  background-color: white;
+  height: auto;
+}
+
+.navbar {
+  position: sticky;
+}
+.container {
+  margin: 0;
+  margin-left: 0;
+}
+
+.accordion {
+  max-width: 600px;
+  background-color: white;
+}
+
+.accordion-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+  background-color: white;
+}
+
+.accordion-title:hover {
+  background-color: white;
+}
+
+.accordion-content {
+  background-color: white;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    font-size: 18px;
+  }
+
+  .accordion {
+    width: 90%;
+  }
+}
+
+.accordion-title,
+.accordion-content {
+  padding: 1rem;
+}
+.btn-primary {
+  width: 160px;
+}
+
+.profile-img img {
+  width: 70%;
+  height: 100%;
+}
+
+.scrolled {
+  position: sticky;
+  top: 0;
+  left: 0;
+}

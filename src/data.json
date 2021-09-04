@@ -1,0 +1,238 @@
+
+  {
+    "departments" : [
+    {
+    "departmentID" : 11 , 
+    "departmentName": "HR",
+    "employees": [
+          {
+          "id": 1,
+          "name": "Leanne Graham",
+          "username": "Bret",
+          "age" : 50,
+          "designation" : "Head HR",
+          "email": "Sincere@april.biz",
+          "address": {
+            "street": "Kulas Light",
+            "suite": "Apt. 556",
+            "city": "Gwenborough",
+            "zipcode": "92998-3874",
+            "geo": {
+              "lat": "-37.3159",
+              "lng": "81.1496"
+            }
+          },
+          "phone": "1-770-736-8031 x56442",
+          "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS52y5aInsxSm31CvHOFHWujqUx_wWTS9iM6s7BAm21oEN_RiGoog" 
+        },
+        {
+          "id": 2,
+          "name": "Ervin Howell",
+          "username": "Antonette",
+          "age" : 30,
+          "designation" : "HR consultant",
+          "email": "Shanna@melissa.tv",
+          "address": {
+            "street": "Victor Plains",
+            "suite": "Suite 879",
+            "city": "Wisokyburgh",
+            "zipcode": "90566-7771",
+            "geo": {
+              "lat": "-43.9509",
+              "lng": "-34.4618"
+            }
+          },
+          "phone": "010-692-6593 x09125",
+          "url": "https://bootdey.com/img/Content/avatar/avatar7.png"
+        },
+        {
+          "id": 3,
+          "name": "Clementine Bauch",
+          "username": "Samantha",
+          "age" : 36,
+          "designation" : "Senior HR Consultant",
+          "email": "Nathan@yesenia.net",
+          "address": {
+            "street": "Douglas Extension",
+            "suite": "Suite 847",
+            "city": "McKenziehaven",
+            "zipcode": "59590-4157",
+            "geo": {
+              "lat": "-68.6102",
+              "lng": "-47.0653"
+            }
+          },
+          "phone": "1-463-123-4447",
+          "url": "https://bootdey.com/img/Content/avatar/avatar2.png"
+        }
+      ]},
+    {
+      "departmentID" : 12 , 
+      "departmentName": "Information Technology",
+      "employees": [ {
+                      "id": 4,
+                      "name": "Patricia Lebsack",
+                      "username": "Karianne",
+                      "age" : 36,
+                      "designation" : "Senior Consultant",
+                      "email": "Julianne.OConner@kory.org",
+                      "address": {
+                        "street": "Hoeger Mall",
+                        "suite": "Apt. 692",
+                        "city": "South Elvis",
+                        "zipcode": "53919-4257",
+                        "geo": {
+                          "lat": "29.4572",
+                          "lng": "-164.2990"
+                        }
+                      },
+                      "phone": "493-170-9623 x156",
+                      "url": "https://bootdey.com/img/Content/avatar/avatar2.png"
+                    },
+                    {
+                      "id": 5,
+                      "name": "Chelsey Dietrich",
+                      "username": "Kamren",
+                      "age" : 43,
+                      "designation" : "Senior Manager",
+                      "email": "Lucio_Hettinger@annie.ca",
+                      "address": {
+                        "street": "Skiles Walks",
+                        "suite": "Suite 351",
+                        "city": "Roscoeview",
+                        "zipcode": "33263",
+                        "geo": {
+                          "lat": "-31.8129",
+                          "lng": "62.5342"
+                        }
+                      },
+                      "phone": "(254)954-1289",
+                      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS52y5aInsxSm31CvHOFHWujqUx_wWTS9iM6s7BAm21oEN_RiGoog"
+  }]},
+      {
+        "departmentID" : 13 , 
+        "departmentName": "Finance",
+        "employees": [{
+                    "id": 6,
+                    "name": "Mrs. Dennis Schulist",
+                    "username": "Leopoldo_Corkery",
+                    "age" : 36,
+                    "designation" : "Senior Finance Accountant",
+                    "email": "Karley_Dach@jasper.info",
+                    "address": {
+                      "street": "Norberto Crossing",
+                      "suite": "Apt. 950",
+                      "city": "South Christy",
+                      "zipcode": "23505-1337",
+                      "geo": {
+                        "lat": "-71.4197",
+                        "lng": "71.7478"
+                      }
+                    },
+                    "phone": "1-477-935-8478 x6430",
+                    "url": "https://bootdey.com/img/Content/avatar/avatar7.png"
+                  },
+                  {
+                    "id": 7,
+                    "name": "Kurtis Weissnat",
+                    "username": "Elwyn.Skiles",
+                    "age" : 20,
+                    "designation" : "Accountant",
+                    "email": "Telly.Hoeger@billy.biz",
+                    "address": {
+                      "street": "Rex Trail",
+                      "suite": "Suite 280",
+                      "city": "Howemouth",
+                      "zipcode": "58804-1099",
+                      "geo": {
+                        "lat": "24.8918",
+                        "lng": "21.8984"
+                      }
+                    },
+                    "phone": "210.067.6132",
+                    "url": "https://bootdey.com/img/Content/avatar/avatar7.png"
+                  }]},
+        {
+          "departmentID" : 14 , 
+          "departmentName": "Administration",
+          "employees": [{
+                    "id": 8,
+                    "name": "Nicholas Runolfsdottir V",
+                    "username": "Maxime_Nienow",
+                    "age" : 20,
+                    "designation" : "Admin Engineer",
+                    "email": "Sherwood@rosamond.me",
+                    "address": {
+                      "street": "Ellsworth Summit",
+                      "suite": "Suite 729",
+                      "city": "Aliyaview",
+                      "zipcode": "45169",
+                      "geo": {
+                        "lat": "-14.3990",
+                        "lng": "-120.7677"
+                      }
+                    },
+                    "phone": "586.493.6943 x140",
+                    "url": "https://bootdey.com/img/Content/avatar/avatar2.png"
+                  },
+                  {
+                    "id": 9,
+                    "name": "Glenna Reichert",
+                    "username": "Delphine",
+                    "age" : 45,
+                    "designation" : "Chief Administrative officer",
+                    "email": "Chaim_McDermott@dana.io",
+                    "address": {
+                      "street": "Dayna Park",
+                      "suite": "Suite 449",
+                      "city": "Bartholomebury",
+                      "zipcode": "76495-3109",
+                      "geo": {
+                        "lat": "24.6463",
+                        "lng": "-168.8889"
+                      }
+                    },
+                    "phone": "(775)976-6794 x41206",
+                    "url": "https://bootdey.com/img/Content/avatar/avatar7.png"
+                  },
+                  {
+                    "id": 10,
+                    "name": "Clementina DuBuque",
+                    "username": "Moriah.Stanton",
+                    "age" : 32,
+                    "designation" : "Senior Staff Engineer",
+                    "email": "Rey.Padberg@karina.biz",
+                    "address": {
+                      "street": "Kattie Turnpike",
+                      "suite": "Suite 198",
+                      "city": "Lebsackbury",
+                      "zipcode": "31428-2261",
+                      "geo": {
+                        "lat": "-38.2386",
+                        "lng": "57.2232"
+                      }
+                    },
+                    "phone": "024-648-3804",
+                    "url": "https://bootdey.com/img/Content/avatar/avatar7.png"
+        },
+        {
+          "id": 11,
+          "name": "Priya Nayar",
+          "username": "Bret",
+          "age" : 50,
+          "designation" : "Head HR",
+          "email": "Sincere@april.biz",
+          "address": {
+            "street": "Kulas Light",
+            "suite": "Apt. 556",
+            "city": "Gwenborough",
+            "zipcode": "92998-3874",
+            "geo": {
+              "lat": "-37.3159",
+              "lng": "81.1496"
+            }
+          },
+          "phone": "1-770-736-8031 x56442",
+          "url": "https://bootdey.com/img/Content/avatar/avatar7.png" 
+        }]}]
+}
