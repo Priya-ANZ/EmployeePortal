@@ -40,8 +40,8 @@ const SideBar = props => {
         
     
          {item.active && item.employees.map(child => (
-            <div className="accordion-content">
-                <li key = {child.id}>
+            <div key = {child.id} className="accordion-content">
+                <li >
                   <Link  
                       to ={{
                             pathname: '/employee',

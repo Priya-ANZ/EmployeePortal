@@ -5,7 +5,8 @@ import React, { useState } from 'react';
 
 const EmployeeList = ({department, searchItem, onSearchText}) => {
     const[selectedEmployees, setSelectedEmployees] = useState([]);
-       
+
+           
     const handleTextChange = (value) =>{
         let newEmployeeList = [];
         department.employees.forEach(employee => {
