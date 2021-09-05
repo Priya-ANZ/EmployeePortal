@@ -4,6 +4,13 @@ import {Link} from "react-router-dom";
 class Employee extends Component {
       
     render() { 
+        if(this.props.location.state == undefined)
+         return (<>
+                <h4 className = "my-5"> Please select an employee from the dashboard</h4><br/>
+                <Link to = "/" className="btn btn-primary">
+                        Back to Dashboard
+                </Link>
+        </>)
         const {id,name, designation, email, phone , url} = this.props.location.state
         return (  
             <div className="container my-5">
